@@ -1,0 +1,219 @@
+*{  margin: 0;
+    padding:0}
+body {
+    /*background: url(images/img-01.jpg);*/
+    
+    
+    background-image: linear-gradient(rgba(99, 66, 187, 0.8),rgba(0,0,0,0.8)), url(images/img-01.jpg);
+    background-size: cover;
+    background-position: top;
+    
+    
+    width:100%;
+    
+    
+}
+body p{
+    font-size: 20px;
+}
+
+
+.cont1 h1{
+    display: block;
+    text-align: center;
+    margin: 40px 0 0 0 ;
+    font-size: 55px;
+    color: white;
+    
+}
+
+.cont1 p{
+    text-align: center;
+    font-size:45px ;
+    
+    color: white;
+    
+
+}
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+
+}
+.socialmedia a {
+    color: #f3f3f3;
+    width: 74px;
+    height: 40px;
+} 
+.cont2{
+    width:1200px;
+    height:300px;
+    background-color: white;
+    margin:auto;
+    position: relative;
+
+}
+
+.cont2 img {
+    margin: 10px 20px 20px 40px ;
+   
+}
+
+.cont2 .bl{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    
+
+}
+.cont2 .bl p {
+    margin: 25px  0 0 0;
+    font-size: 20px;
+}
+.cont2 h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.cont3 {
+    width:1200px;
+    height:360px;
+    background-color: white;
+    margin:30px auto;
+
+}
+.cont3 h1{
+    text-align: center;
+    margin:auto;
+
+}
+.cont3 .imagecard{
+    display: flex;
+    justify-content: center;
+    margin:40px;
+    gap: 20px;
+    
+}
+.cont4 {
+    width:1200px;
+    height:400px;
+    background-color: white;
+    margin:30px auto;
+
+}
+.cont4 h1{
+    text-align: center;
+
+}
+.cont4 .prg{
+    text-align: center;
+}
+.cont5 {
+    width:1200px;
+    height:360px;
+    background-color: white;
+    margin:30px auto;
+    text-align: center;
+
+}
+
+.cont6 {
+    width:1200px;
+    height:100px;
+    background-color: white;
+    margin:30px auto;
+    text-align: center;
+
+}
+
+.cont7 {
+    width:1200px;
+    height:900px;
+    background-color: white;
+    margin:30px auto;
+    text-align: center;
+
+}
+.cont7 .img7{
+    margin-top: 35px;
+}
+.cont7 h1{
+    margin: 25px  0 0 0;
+    font-size: 20px;
+}
+
+.socialmedia1 {
+    width:1200px;
+    height:250px;
+    background-color: white;
+    margin:30px auto;
+    text-align: center;
+
+}
+.socialmedia1 .smblock {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    gap: 180px;
+    font-size: 20px;
+}
+.socialmedia1 .smblock .smbuttons a:hover{
+    color: rgba(99, 66, 187, 0.8);
+}
+
+.socialmedia1 .smblock .smbuttons a {
+    color: black;
+    text-decoration: none;
+}
+.socialmedia1 {
+    width:1200px;
+    height:250px;
+    background-color: white;
+    margin:30px auto;
+    text-align: center;
+
+}
+.form{
+    width:1200px;
+    height:500px;
+    background-color: white;
+    margin:50px auto;
+    text-align: center;
+
+}
+.form .formcontent{
+
+    margin:55px auto;
+}
+.form .formcontent .formgroup .form-control{
+    width: 600px;
+    height: 30px;
+
+    
+}
+.form .formcontent .formgroup  .button1{
+    background-color: #e94560;
+    color:#fff;
+    padding: 60px 30px;
+    font-size:16px;
+    border-radius: 6px;
+    width: 100%;  
+    margin-top: 100px;  
+}
+
+.form .formcontent .formgroup  .button1:hover{
+    color:rgba(99, 66, 187, 0.8);
+
+}
+.footer{
+    width:1200px;
+    height:500px;
+    color: #fff;
+    margin:30px auto;
+    text-align: center;
+
+}
+
